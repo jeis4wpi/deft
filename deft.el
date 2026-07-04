@@ -406,7 +406,7 @@
 
 ;; If you are experiencing slow performance with a large number of
 ;; files, you can limit the number of files displayed in the buffer by
-;; seting `deft-file-limit' to a positive integer value.  This limits
+;; setting `deft-file-limit' to a positive integer value.  This limits
 ;; the number of file buttons that need to be rendered, making each
 ;; update faster.
 
@@ -515,7 +515,7 @@
 ;;   `deft-strip-title-regexp', which removes Markdown and Org headings.
 ;; * Open files in another window with `C-o`.  Prefix it with `C-u` to
 ;;   switch to the other window.
-;; * For symbolic links, use modification time of taget for sorting.
+;; * For symbolic links, use modification time of target for sorting.
 ;; * When opening files, move point to the end of the first match of
 ;;   the filter string.
 ;; * Improved filter editing: delete (`DEL`), delete word (`M-DEL`),
@@ -705,7 +705,7 @@ Supported cons car values: `noslash', `nospace', `case-fn'.
 Value of `slash' is a string which should replace the forward
 slash characters in the file name.  The default behavior is to
 replace slashes with hyphens in the file name.  To change the
-replacement charcter to an underscore, one could use:
+replacement character to an underscore, one could use:
 
    (setq deft-file-naming-rules \\='((noslash . \"_\")))
 

@@ -483,7 +483,7 @@ Version 0.5 (2013-01-25):
   `deft-strip-title-regexp`, which removes Markdown and Org headings.
 * Open files in another window with <kbd>C-o</kbd>.  Prefix it with <kbd>C-u</kbd> to
   switch to the other window.
-* For symbolic links, use modification time of taget for sorting.
+* For symbolic links, use modification time of target for sorting.
 * When opening files, move point to the end of the first match of
   the filter string.
 * Improved filter editing: delete (`DEL`), delete word (<kbd>M-DEL</kbd>),
@@ -511,4 +511,3 @@ Version 0.2 (2011-08-22):
 
 Deft was originally written by [Jason Blevins](https://jblevins.org/).
 The initial version, 0.1, was released on August 6, 2011.
-
